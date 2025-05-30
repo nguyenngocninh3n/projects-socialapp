@@ -4,8 +4,8 @@ extensions.configure(com.facebook.react.ReactSettingsExtension){ ex -> ex.autoli
 rootProject.name = 'SocialApp'
 include ':app'
 includeBuild('../node_modules/@react-native/gradle-plugin')
-include ':react-native-push-notification'
-project(':react-native-push-notification').projectDir = file('../node_modules/react-native-push-notification/android')
+// include ':react-native-push-notification'
+// project(':react-native-push-notification').projectDir = file('../node_modules/react-native-push-notification/android')
 
 
 include ':rnwebrtc'
@@ -14,5 +14,5 @@ project(':rnwebrtc').projectDir = new File(rootProject.projectDir, '../node_modu
 include ':rnfgservice'
 project(':rnfgservice').projectDir = new File(rootProject.projectDir, '../node_modules/@videosdk.live/react-native-foreground-service/android')
 
-include ':react-native-restart'
-project(':react-native-restart').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-restart/android')
+// include ':react-native-restart'
+// project(':react-native-restart').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-restart/android')

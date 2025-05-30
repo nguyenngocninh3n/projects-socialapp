@@ -29,10 +29,7 @@ buildscript {
     repositories {
         google() 
         mavenCentral()
-       maven {
-           // react-native-background-fetch
-           url("${project(':react-native-background-fetch').projectDir}/libs")
-       }
+    //   a
         // maven {
         //     url "https://maven.google.com"
         // }

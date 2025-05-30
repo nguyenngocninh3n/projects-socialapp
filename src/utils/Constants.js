@@ -1,10 +1,14 @@
 // const URL = 'http://192.168.1.2'
-const URL = 'http://192.168.1.65'
+// const URL = 'http://192.168.1.65'
+const URL = 'https://projects-socialserver.onrender.com'
 // const URL = 'http://192.168.101.65'
 // const URL = 'http://10.0.4.117'
 const PORT = '8080'
-const SERVER_POST = `${URL}:${PORT}`
-export const SERVER_ADDRESS = `${URL}:${PORT}`
+// const SERVER_POST = `${URL}:${PORT}`
+// export const SERVER_ADDRESS = `${URL}:${PORT}`
+
+const SERVER_POST = URL
+export const SERVER_ADDRESS = URL
 
 const MESSAGE_TYPE = {
   TEXT: 'TEXT',
